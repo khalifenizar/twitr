@@ -1,29 +1,45 @@
 body {
-height: 185px;
-width: 500px;
-font-family: Helvetica;
-background-color: rgb(244, 248, 249);
-border-width: 1px;
-border-style: solid;
-border-color: rgb(225, 232, 237);
-padding: 20px;
-margin: 20px;
+  height: 185px;
+  width: 500px;
+  font-family: Helvetica;
+  background-color: rgb(244, 248, 249);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(225, 232, 237);
+  padding: 20px;
+  margin: 20px;
 }
-.profile-picture
-{padding: 0px 15px 0px 0px}
-.profile-picture, .account-logo,
-.user-name
-{float: left}
-.validated-account
-{padding-left: 10px}
-.twitter {float: left}
+
+.profile-picture {
+  padding: 0px 15px 0px 0px;
+}
+
+.profile-picture,
+.account-logo,
+.user-name {
+  float: left
+}
+
+.validated-account {
+  padding-left: 10px;
+}
+
+.twitter {
+  float: left
+}
+
 button {
   border-width: 2px;
   color: rgb(85, 172, 238);
   border-color: rgb(85, 172, 238);
   background-color: rgb(255, 255, 255);
-  float: right
+  float: right;
 }
 
-.date {color: rgb(101, 116, 127)}
-span {color: rgb(101, 116, 127)}
+.date {
+  color: rgb(101, 116, 127);
+}
+
+span {
+  color: rgb(101, 116, 127);
+}
